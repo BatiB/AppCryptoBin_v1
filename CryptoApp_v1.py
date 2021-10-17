@@ -10,7 +10,7 @@ st.header('**Selected Price**')
 # Load market data from Binance API
 
 t = 1
-while t = 1:
+while t == 1:
     df = pd.read_json('https://api.binance.com/api/v3/ticker/24hr')
     sleep(2)
 
